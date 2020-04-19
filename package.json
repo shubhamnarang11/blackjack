@@ -1,0 +1,20 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "BlackJack Game",
+  "main": "app.js",
+  "scripts": {
+    "migrate": "node ./utils/dumpData",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Narang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7",
+    "uniqid": "^5.2.0"
+  }
+}
